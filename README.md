@@ -1,16 +1,91 @@
-# React + Vite
+GlobalPersona UI – React + CSS Modules
+======================================
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a front-end UI built for the GlobalPersona assignment.  
+It follows all requirements mentioned in the PDF including Dashboard, 
+Campaigns list, Create Campaign, Contacts page, and Settings page.  
+All data is handled using mock JSON / context (no backend required).
 
-Currently, two official plugins are available:
+----------------------------------------------------------
+1. PROJECT FEATURES
+----------------------------------------------------------
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+✓ Dashboard
+  • Total Campaigns, Active, Draft counts
+  • Recent Campaigns table
+  • Cards with animations and color themes
 
-## React Compiler
+✓ Campaigns Page
+  • Campaigns list table
+  • Create New Campaign form
+  • Campaign Detail page (view)
+  • Data stored in Context + mock.js
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+✓ Contacts Page
+  • Contacts list table
 
-## Expanding the ESLint configuration
+✓ Settings Page
+  • Profile info update (mock only)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+✓ Sidebar + Navigation
+  • Animated menu links
+  • Active page highlight
+  • Smooth transitions
+
+----------------------------------------------------------
+2. TECHNOLOGIES USED
+----------------------------------------------------------
+
+• React.js  
+• Vite  
+• CSS Modules  
+• Context API  
+• Mock Data (JSON objects)  
+
+----------------------------------------------------------
+3. FOLDER STRUCTURE
+----------------------------------------------------------
+
+src/
+ ├─ components/
+ ├─ pages/
+ ├─ context/
+ ├─ data/
+ ├─ App.jsx
+ ├─ main.jsx
+
+----------------------------------------------------------
+4. HOW TO RUN THE PROJECT
+----------------------------------------------------------
+
+Step 1: Install dependencies  
+    npm install
+
+Step 2: Start development server  
+    npm run dev
+
+Project will open at:  
+    http://localhost:3000/
+
+----------------------------------------------------------
+5. HOW TO BUILD FOR DEPLOYMENT
+----------------------------------------------------------
+
+    npm run build
+
+
+----------------------------------------------------------
+6. NOTES
+----------------------------------------------------------
+
+• Backend or database connection is not required.  
+• All campaign and contact data is mock JSON.
+
+----------------------------------------------------------
+7. SCREEN RECORDING LINK (Optional)
+----------------------------------------------------------
+
+Paste your recording link here.
+
+----------------------------------------------------------
+END
