@@ -15,8 +15,6 @@
   margin-bottom: 32px;
   letter-spacing: 0.4px;
 }
-
-/* NAVIGATION */
 .nav {
   display: flex;
   flex-direction: column;
@@ -44,7 +42,7 @@
 .link:hover {
   background: rgba(255, 255, 255, 0.08);
   color: #fff;
-  transform: translateY(-3px);  /* small lift */
+  transform: translateY(-3px);
   box-shadow: 0 6px 14px rgba(0,0,0,0.30);
 }
 

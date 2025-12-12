@@ -1,19 +1,19 @@
 .card {
-  border-radius: 10px;            /* smaller round */
-  padding: 8px 12px;              /* reduced padding */
-  width: 100%;                    /* responsive */
-  min-height: 70px;               /* reduced height */
+  border-radius: 10px;            
+  padding: 8px 12px;              
+  width: 100%;                   
+  min-height: 70px;               
   display: flex;
   flex-direction: column;
   justify-content: center;
 
-  /* animations */
+  
   transition: transform 0.25s ease, box-shadow 0.25s ease, opacity 0.4s ease;
   opacity: 0;
   animation: cardFadeIn 0.5s forwards;
 }
 
-/* fade-in animation */
+
 @keyframes cardFadeIn {
   from {
     opacity: 0;
@@ -25,7 +25,7 @@
   }
 }
 
-/* hover effect */
+
 .card:hover {
   transform: translateY(-4px) scale(1.015);
   box-shadow: 0 10px 20px rgba(0,0,0,0.18);

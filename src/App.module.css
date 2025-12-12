@@ -6,7 +6,7 @@
   color: #0b0f14;
 }
 
-/* Sidebar takes fixed width; main grows */
+
 .main {
   flex: 1;
   display: flex;
@@ -14,9 +14,9 @@
   min-width: 0;
 }
 
-/* header is included in Header component; content area scrolls */
+
 .content {
   padding: 20px;
   overflow-y: auto;
-  height: calc(100vh - 64px); /* header assumed ~64px */
+  height: calc(100vh - 64px); 
 }
