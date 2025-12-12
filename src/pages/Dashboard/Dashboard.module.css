@@ -1,0 +1,109 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.title {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+/* FULL COLOR CARDS */
+.totalCard {
+  background: #3b82f6; /* BLUE */
+  color: white;
+  padding: 20px;
+  border-radius: 14px;
+  width: 23%;
+}
+
+.activeCard {
+  background: #22c55e; /* GREEN */
+  color: white;
+  padding: 20px;
+  border-radius: 14px;
+  width: 23%;
+}
+
+.draftCard {
+  background: #facc15; /* YELLOW */
+  color: black;
+  padding: 20px;
+  border-radius: 14px;
+  width: 23%;
+}
+
+.sendingCard {
+  background: #60a5fa; /* SKY BLUE */
+  color: white;
+  padding: 20px;
+  border-radius: 14px;
+  width: 23%;
+}
+
+.value {
+  font-size: 28px;
+  font-weight: 700;
+  margin-top: 10px;
+}
+
+/* RECENT BOX */
+.recentBox {
+  background: white;
+  padding: 20px;
+  border-radius: 14px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.06);
+}
+
+.recentTitle {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th {
+  background: #eef2ff;
+  padding: 12px;
+  text-align: left; 
+}
+
+.table td {
+  padding: 12px;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.badge {
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-weight: 600;
+  color: white;
+}
+
+.active {
+  background: #22c55e;
+}
+
+.draft {
+  background: #eab308;
+}
+
+.sendingBadge {
+  background: #3b82f6;
+}
+
+.viewLink {
+  color: #2563eb;
+  text-decoration: none;
+}

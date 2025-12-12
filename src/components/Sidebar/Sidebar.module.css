@@ -1,0 +1,57 @@
+.sidebar {
+  width: 240px;
+  background: gray;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 24px 16px;
+  box-sizing: border-box;
+}
+
+/* BRAND LOGO */
+.brand {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 32px;
+  letter-spacing: 0.4px;
+}
+
+/* NAVIGATION */
+.nav {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex: 1;
+}
+
+/* DEFAULT LINK */
+.link {
+  color: #d6d6d6;
+  text-decoration: none;
+  padding: 12px 14px;
+  border-radius: 10px;
+  font-weight: 500;
+
+  /* SMOOTH ANIMATION */
+  transition: 
+    background 0.25s ease,
+    color 0.25s ease,
+    transform 0.25s ease,
+    box-shadow 0.25s ease;
+}
+
+/* HOVER ANIMATION (like cards) */
+.link:hover {
+  background: rgba(255, 255, 255, 0.08);
+  color: #fff;
+  transform: translateY(-3px);  /* small lift */
+  box-shadow: 0 6px 14px rgba(0,0,0,0.30);
+}
+
+/* ACTIVE PAGE HIGHLIGHT */
+.active {
+  background: rgba(97,138,168,0.25); 
+  color: #e6f5ff;
+  box-shadow: 0 6px 14px rgba(97,138,168,0.35);
+  transform: translateY(-2px);
+}
