@@ -31,9 +31,20 @@ export default function Campaigns() {
           {campaigns.map((c) => (
             <tr key={c.id}>
               <td>{c.name}</td>
-              <td>{c.status}</td>
+
+              <td>
+                <span
+                  className={`${styles.statusBadge} ${
+                    styles[c.status.toLowerCase()]
+                  }`}
+                >
+                  {c.status}
+                </span>
+              </td>
+
               <td>{c.sent}</td>
               <td>{c.openRate}%</td>
+
               <td>
                 <Link to={`/campaigns/${c.id}`} className={styles.viewLink}>
                   View
